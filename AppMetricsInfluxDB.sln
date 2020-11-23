@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMetricsInfluxDB.Api", "AppMetricsInfluxDB.Api\AppMetricsInfluxDB.Api.csproj", "{356375EF-2600-4BA2-B787-960CF3AB8A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMetricsInfluxDB.Data", "AppMetricsInfluxDB.Data\AppMetricsInfluxDB.Data.csproj", "{B3152C36-028F-4584-B6B6-E7FB517570E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMetricsInfluxDB.Domain", "AppMetricsInfluxDB.Domain\AppMetricsInfluxDB.Domain.csproj", "{95B0E7DD-5BA7-4ABA-8795-D49EA8C19309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{356375EF-2600-4BA2-B787-960CF3AB8A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356375EF-2600-4BA2-B787-960CF3AB8A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356375EF-2600-4BA2-B787-960CF3AB8A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356375EF-2600-4BA2-B787-960CF3AB8A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3152C36-028F-4584-B6B6-E7FB517570E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3152C36-028F-4584-B6B6-E7FB517570E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3152C36-028F-4584-B6B6-E7FB517570E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3152C36-028F-4584-B6B6-E7FB517570E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B0E7DD-5BA7-4ABA-8795-D49EA8C19309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B0E7DD-5BA7-4ABA-8795-D49EA8C19309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B0E7DD-5BA7-4ABA-8795-D49EA8C19309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B0E7DD-5BA7-4ABA-8795-D49EA8C19309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7373A6DE-4FAB-47A6-9CC0-E4B6550116CB}
+	EndGlobalSection
+EndGlobal
